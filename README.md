@@ -8,7 +8,7 @@ To use this tool:
 import mvnx_parser
 my_data = mvnx_parser.Mvnx_p(<path/to/your/mvnx/file.mvnx>)
 ```
-You can then either access the date through the frames list that has all the data of all normal frames, or through the item lists if you want to have all data of one item (for example orientation, or position). You can also get some data from the header frames.
+You can then either access the data through the frames list that has all the data of all normal frames, or through the item lists if you want to have all data of one item (for example orientation, or position). You can also get some data from the header frames.
 ## Normal frames
 The **frames** start at 0 and go up to how ever many frames you have -1. Therefore to get for example the 2. frame:
 ```
