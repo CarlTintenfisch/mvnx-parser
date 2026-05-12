@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mvnx_parser"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Carl Tintenfisch", email="carl.tintenfisch@posteo.com" },
 ]
