@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mvnx_parser"
+version = "0.0.1"
+authors = [
+  { name="Carl Tintenfisch", email="carl.tintenfisch@posteo.com" },
+]
+description = "rudimentary python parser for the xsens format mvnx"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE*"]
+
+[project.urls]
+Homepage = "https://github.com/CarlTintenfisch/mvnx-parser.git"
+Source = "https://github.com/CarlTintenfisch/mvnx-parser.git"
+Issues = "https://github.com/CarlTintenfisch/mvnx-parser.git/issues"
