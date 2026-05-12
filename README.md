@@ -1,5 +1,8 @@
 # To use this mvnx parser
-To install this mvnx parser TODO  
+To install this mvnx parser:
+```
+pip install mvnx_parser
+```
 To use this tool:
 ```
 import mvnx_parser
