@@ -1,9 +1,9 @@
-# To use ths mvnx parser
+# To use this mvnx parser
 To install this mvnx parser TODO
 To use this tool:
 ```
 import mvnx_parser
-my_data = mvnx_parser.Mvnx_p(<paty/to/your/mvnx/file.mvnx>)
+my_data = mvnx_parser.Mvnx_p(<path/to/your/mvnx/file.mvnx>)
 ```
 You can then either access the date through the frames list that has all the data of all normal frames, or through the item lists if you want to have all data of one item (for example orientation, or position). You can also get some data from the header frames.
 ## Normal frames
@@ -15,7 +15,7 @@ To get a whole **item**, for example orientation from the 2. frame:
 ```
 my_data.frames[1]["orientation"]
 ```
-To get the orientation of the first **joint** of the 2. frame: #TODO should they have names?
+To get the orientation of the first **joint** of the 2. frame: 
 ```
 my_data.frames[1]["orientation"][0]
 ```
@@ -44,7 +44,7 @@ my_data.tpose["orientation"][0]
 # The data structure
 ## frames list
 frames is the list with all the frames of the type "normal" which are all the frames of the xsens recording.
-Tis list contains each frame as a dictionary.
+This list contains each frame as a dictionary.
 
 Here is the structure it uses (Stuff behind a "#" are comments I wrote in here to explain the structure better):
 ```
