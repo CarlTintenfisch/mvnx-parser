@@ -1,5 +1,5 @@
 # To use this mvnx parser
-To install this mvnx parser TODO
+To install this mvnx parser TODO  
 To use this tool:
 ```
 import mvnx_parser
@@ -29,7 +29,7 @@ To get the data of the first **frame** of the item orientation you would write:
 my_data.orientation[0]
 ```
 ## Header frames
-There are three frames in the mvnx file written in front of the normal frames with the types: **"identity"**, **"tpose"** and **"tpose-isb"**.
+There are three frames in the mvnx file written in front of the normal frames with the types: **"identity"**, **"tpose"** and **"tpose-isb"**.  
 You can access them by:
 ```
 my_data.identity
@@ -43,9 +43,7 @@ my_data.tpose["orientation"][0]
 
 # The data structure
 ## frames list
-frames is the list with all the frames of the type "normal" which are all the frames of the xsens recording.
-This list contains each frame as a dictionary.
-
+frames is the list with all the frames of the type "normal" which are all the frames of the xsens recording. This list contains each frame as a dictionary.  
 Here is the structure it uses (Stuff behind a "#" are comments I wrote in here to explain the structure better):
 ```
 [ #list of all frames
@@ -65,8 +63,7 @@ Here is the structure it uses (Stuff behind a "#" are comments I wrote in here t
 ]
 ```
 ## item lists
-The item lists contain the values of each item per frame. (It's a list of frames with lists of value(groups)).
-
+The item lists contain the values of each item per frame. (It's a list of frames with lists of value(groups)).  
 It's structure looks like follows (Stuff behind a "#" are comments I wrote in here to explain the structure better):
 ```
 [ #list of frames
