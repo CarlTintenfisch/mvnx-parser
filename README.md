@@ -1,4 +1,4 @@
-!currently broken, will be fixed within a few days!
+!currently broken, will be fixed!
 
 # To use this mvnx parser
 To install this mvnx parser:
